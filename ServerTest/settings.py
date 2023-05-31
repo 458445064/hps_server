@@ -1,3 +1,4 @@
+
 """
 Django settings for ServerTest project.
 
@@ -140,7 +141,7 @@ CACHES = {
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.SessionAuthentication',
-        'utils.auth.LoginAuth',  # 自定义认证
+        # 'utils.auth.LoginAuth',  # 自定义认证
     )
 }
 # Default primary key field type
